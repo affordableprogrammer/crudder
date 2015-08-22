@@ -1,0 +1,2268 @@
+ssh root@104.130.169.19
+2fv0BItgMHnG
+cd ../var/www/vhosts/gracecompany/stage.grace
+
+ssh root@104.130.169.19
+2fv0BItgMHnG
+cd ../var/www/vhosts/gracecompany/dev.grace
+
+ssh root@104.130.169.19
+2fv0BItgMHnG
+cd ../var/www/vhosts/gracecompany/dev.grace/public/csvto/2/
+
+http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/
+/home/vagrant/.ssh/rack_id_rsa.pub': No such file
+
+ssh-copy-id -i ~/.ssh/racker_id_rsa.pub fungamesandtoys.com
+
+ssh-agent $SHELL
+ssh-add /c/Users/sandbox/.ssh/racker_id_rsa
+
+C:\Users\sandbox\A_LOCAL\sites\lumen.local\resources\views\
+
+
+"palex/phpstructureddata": "*"
+
+$product->toArray();
+
+
+$products = new App\Product;
+
+
+$products->id = "1";
+$products->available_on = "2015-08-18 10:08:28";
+
+
+$products->name = "qct";
+
+$products->save();
+
+App\Product::all();
+
+
+$product->toArray();
+
+
+
+$article->published_at =  Carbon\Carbon::now();
+
+$products = new App\Product;
+$products->id = "1";
+$products->available_on = "2015-08-18 10:08:28";
+$products->save();
+App\Product::all();
+
+$product->toArray();
+
+public function show($id)
+{
+    $user = User::find($id);
+    return $this->respondWithItem($user, new UserTransformer);
+}
+ php artisan vendor:publish --provider="Mitul\Generator\GeneratorServiceProvider"
+php artisan vendor:publish --provider="Mitul\Generator\GeneratorServiceProvider" --tag=config
+php artisan vendor:publish --provider="Mitul\Generator\GeneratorServiceProvider" --tag=templates
+
+php artisan mitul.generator:scaffold_api Post --fieldsFile="/Users/Mitul/laravel-api-generator/fields.json"
+php artisan mitul.generator:scaffold_api Post --fieldsFile="fields.json"
+
+php artisan create:scaffold_api User --fieldsFile="/home/vagrant/sites/boots.local/resources/assets/fields/users.json" --softDelete
+
+php artisan create:scaffold_api Product --fieldsFile="/home/vagrant/sites/learn.local/resources/assets/fields/products.json" --softDelete --paginate=25
+
+php artisan make:migration:schema create_products_table --schema="product_id:integer:foreign, productname:string, short_description:text, description:text, meta_description:text, product_content:text, image_path:file, schema_html:string, schema_body:string, "
+
+php artisan create:publish --baseController
+
+
+
+php artisan create:scaffold_api User --fromTable --tableName=users
+
+php artisan create:scaffold_api User --fieldsFile="/home/vagrant/sites/boots.local/resources/assets/fields/fields.json" --softDelete --paginate=25
+
+
+--softDelete
+
+'Way\Generators\GeneratorsServiceProvider',
+'Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider',
+'User11001\EloquentModelGenerator\EloquentModelGeneratorProvider',
+'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+'Barryvdh\Debugbar\ServiceProvider',
+
+
+'Debugbar'  => 'Barryvdh\Debugbar\Facade',
+
+
+
+Cart::add(array(
+  array(
+      'id' => 456,
+      'name' => 'Sample Item 1',
+      'price' => 67.99,
+      'quantity' => 4,
+      'attributes' => array()
+  ),
+  array(
+      'id' => 568,
+      'name' => 'Sample Item 2',
+      'price' => 69.25,
+      'quantity' => 4,
+      'attributes' => array(
+        'size' => 'L',
+        'color' => 'blue'
+      )
+  ),
+));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tar -zcvf fg-theme-knucklestrutz-8-17-2015.tar.gz /var/www/vhosts/fungamesandtoys.com  
+
+http://www.computerhope.com/unix/utar.htm
+
+
+tar -zcvf bsets-theme-knucklestrutz-8-17-2015.tar.gz /var/www/vhosts/buildingsets.toys 
+
+scp -r 104.130.169.19:/var/www/vhosts/fg-theme-knucklestrutz-8-17-2015.tar.gz toys:  f:/[BACKUP]/
+
+ftp://ftp.yowexchange.com//InventoryFeed/YowInventory_08.12.15.csv
+
+XCOPY SourceDrive: DestinationDrive: /S /E
+
+
+XCOPY SourceDrive: DestinationDrive: /S /E
+
+search for something on server  alias |grep <cleanall>
+
+alias |grep cleanall
+
+XCOPY C:\Users\sandbox\A_LOCAL\sites\cart.dev C:\Users\sandbox\A_LOCAL\local.repos\cart\cart /S /E
+
+XCOPY C:\Users\sandbox\A_LOCAL\sites\lumen.local C:\Users\sandbox\A_LOCAL\local.repos\deved /S /E
+
+
+git tag -a v1.0.0 -m 'Version 1.0.0 for Laravel 5. First Release'
+
+https://phillipmadsen@git.assembla.com
+
+set sublime to git 
+git config --global core.editor "subl -n -w"
+
+
+
+new_proc-master
+
+http://2local/new_proc-master/modules/read_csv/print_tabla.php
+http://2local/new_proc-master/postingCsv.php
+
+http://2local/new_proc-master
+
+http://dev.grace/csvto/2/php.php
+
+date.timezone = America/Denver
+auto_detect_line_endings = On
+allow_url_fopen = On
+allow_url_include = On
+zlib.output_compression = On
+zlib.output_compression_level = -1
+
+highlight.string  = #DD0000
+highlight.comment = #FF9900
+highlight.keyword = #007700
+highlight.bg      = #FFFFFF
+highlight.default = #0000BB
+highlight.html    = #000000
+
+ignore_repeated_errors = on
+
+error_prepend_string = "<font color=#ff0000>"
+error_append_string = "</font>"
+
+memory_limit = 200M
+ 
+upload_max_filesize = 70M
+post_max_size = 20M
+
+   ini_set('error_prepend_string', '<font color=#ff0000>');
+    ini_set('error_append_string', '</font>');
+
+<?php
+ini_set("memory_limit","200M");
+ini_set("zlib.output_compression", "On");
+ini_set("zlib.output_compression", 4096);
+ini_set("display_startup_errors", "On");
+ini_set("display_errors", "On");
+ini_set("ignore_repeated_source", "On");
+ini_set("magic_quotes_gpc", "On");
+?>
+
+https://plus.google.com/share?url=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1wL8pFzh_eGhPx9QTsLB7BWyfaqCuKIt8TZoOVsKObSo%2Fpubhtml%3Fgid%3D1814223160%26single%3Dtrue
+https://docs.google.com/spreadsheets/d/1wL8pFzh_eGhPx9QTsLB7BWyfaqCuKIt8TZoOVsKObSo/pubjson?gid=1814223160&single=true
+https://docs.google.com/spreadsheets/d/1wL8pFzh_eGhPx9QTsLB7BWyfaqCuKIt8TZoOVsKObSo/pub?gid=1814223160&single=true&output=csv
+
+
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors','On');
+
+ini_set('error_log','my_file.log');
+foreach(1 as $i);
+
+ini_set('error_log','');
+foreach(1 as $i);
+
+ini_set('error_log','/dev/null'); #linux
+foreach(1 as $i);
+?>
+
+
+
+./csv-to-json data_out.csv > data_out.json
+
+UPC
+
+ftp://econtent@yowexchange.com:f4gz2sp@ftp.yowexchange.com/InventoryFeed/YowInventory_08.12.15.csv
+
+
+make executable
+
+chmod a+x to_array
+https://docs.google.com/spreadsheets/d/1wL8pFzh_eGhPx9QTsLB7BWyfaqCuKIt8TZoOVsKObSo/pub?gid=1814223160&single=true&output=csv
+
+ftp://econtent@yowexchange.com:f4gz2sp@ftp.yowexchange.com/ImageLibrary/SS_494805_100040492.jpg
+
+ftp://ftp.yowexchange.com//InventoryFeed/YowInventory_08.12.15.csv
+
+ItemNumber
+ProductNumber
+ItemDescription
+QuantityAvailable
+ListPrice
+Discount
+NetPrice
+
+
+
+ 
+upc
+brand
+class 
+subclass
+category
+
+
+
+
+
+
+
+git clone git@git.assembla.com:grace-comp.development.git
+
+ping assembla.com
+
+ssh-keygen -t rsa -C "pmadsen2013@gmail.com"
+
+/c/Users/sandbox/.ssh/id_rsa_assembla_phillip
+
+
+git remote add origin git@git.assembla.com:grace-comp.development.git
+
+ssh-add /c/Users/sandbox/.ssh/assembla/phillip/id_rsa
+
+ssh -i ~/.ssh/assembla/phillip/id_rsa phillip.madsen@git.assembla.com
+
+
+git config user.name "Phillip Madsen" 
+git config user.email "pmadsen2013@gmail.com"  
+
+git config user.name 
+git config --global user.name "Phillip Madsen"  
+git config --global user.email "pmadsen2013@gmail.com" 
+
+git config --global user.email # Verify
+# pmadsen2013@gmail.com
+git config --global user.name # Verify
+# Phillip Madsen
+
+Develop and Create new DB Tables
+Create all the database tables that are needed for the ecomm
+
+/c/Users/sandbox/.ssh/assembla_id_rsa_phillip
+
+
+
+API Key
+858366cd302af5ae22bc4969a7d3a5a0
+Password
+8ec57ec13787dc1ae7dae19425fb8a9d
+Shared Secret
+a1a1ffde82e88d9c999da07a8866f0cf
+URL Format
+https://apikey:password@hostname/admin/resource.json
+Example URL
+https://858366cd302af5ae22bc4969a7d3a5a0:8ec57ec13787dc1ae7dae19425fb8a9d@affordable-programmer.myshopify.com/admin/orders.json
+
+
+SHOPIFY API KEY   138bafbb1a3dd178f11597d051f98ba5
+SHOPIFY API KEY SECRET  844562cee805424bd54aa019d2570527
+SHOPIFY API KEY TOKEN  9dc60ae26f4b32c300cee73344e59c0d-1439431028
+
+
+sudo apt-get install ruby-bundler
+
+<meta name="csrf-token" content="{{ csrf_token() }}" />
+
+<script type="text/javascript">
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
+<script src="{{ asset('js/custom-admin/jquery-1.11.1.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/custom-admin/raphael-min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/custom-admin/livicons-1.4.min.js') }}" type="text/javascript"></script>
+{!! asset('js/custom-admin/jquery-1.11.1.min.js') !!}
+{!! asset('js/custom-admin/raphael-min.js') !!}
+{!! asset('js/custom-admin/livicons-1.4.min.js') !!}
+
+
+    /js/custom-admin/jquery-1.11.1.min.js
+    /js/custom-admin/raphael-min.js
+    /js/custom-admin/livicons-1.4.min.js
+
+    {!! Html::script('/js/custom-admin/jquery-1.11.1.min.js') !!}
+    {!! Html::script('/js/custom-admin/raphael-min.js') !!}
+    {!! Html::script('/js/custom-admin/livicons-1.4.min.js') !!}
+
+   {!! Html::script('/js/custom-admin/raphael-min.js') !!}
+    {!! Html::script('/js/custom-admin/livicons-1.4.min.js') !!}
+
+    
+<script>
+$(document).ready(function() {
+$('.toggle').click(function() {
+$('.title').removeClass('on');
+$('.content').slideUp('normal');
+if($(this).next().is(':hidden') == true) {
+$(this).addClass('on');
+$(this).next().slideDown('normal');
+}
+});
+});
+</script>
+
+
+
+curl -i <www.sitename.com>
+echo $PATH
+
+      $table->string('name');
+      $table->text('description');
+      $table->text('price');
+  'key'             => env('APP_KEY', 'SomeRandomString'),
+
+      $table->increments('id');
+      $table->string('title');
+      $table->text('body');
+      $table->text('excerpt')->nullable();
+      $table->timestamps();
+      $table->timestamp('published_at');
+
+We are interested in renting this property. we live about 2 blocks away and have been looking for something in the area. how can we get strated  with the process. Also can i come by tonight or tomorrow and take a look. if this is possible please reply to pmadsen2013@gmail.com and denyce430@gmail.com and my number is 8016668198 or 8012602669
+
+
+postsuper -d ALL
+
+
+sudo fail2ban-client set ssh delignoreip 67.214.252.134
+/var/www/vhosts/gracecompany/errors
+
+
+
+
+
+screen -list
+init screen -x
+screen -S <name>
+screen -x james
+
+BASECAMP
+
+php artisan vendor:publish --provider=barryvdh/laravel-ide-helper --tag=config --sublime
+php artisan vendor:publish --sublime=barryvdh/laravel-ide-helper --tag=config 
+
+
+alias mods="php artisan module:list"
+
+alias module:make="php artisan module:make"
+
+wall comminicates to the terminal ( any users )
+
+screen -list
+
+sc
+phillip.online.prof@gmail.com
+iptables -L
+
+composer global show -s
+
+
+
+http://fungamesandtoys.com/
+
+ssl cert request
+
+
+Common Name: "www.fungamesandtoys.com"
+Alt. Names: "fungamesandtoys.com"
+Organization: "Gracewood Management"
+Email: "contact@buildingsets.toys"
+Locality (City): "Salt Lake City"
+State: "Utah"
+Country: "US"
+
+
+ http://33.33.33.100
+33.33.33.100
+symfony
+symfony-vagrant
+
+
+wall ""
+
+screen 
+
+req leafo/lessphp kriswallsmith/assetic 
+
+
+    'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+    'Barryvdh\Debugbar\ServiceProvider',
+    'Pingpong\Generators\GeneratorsServiceProvider',
+    'Pingpong\Menus\MenusServiceProvider',
+    'Pingpong\Themes\ThemesServiceProvider',
+
+C:\Users\sandbox\AppData\Roaming\npm\gulp -> C:\Users\sandbox\AppData\Roaming\npm\node_modules\gulp\bin\gulp.js
+vagrant-winnfsd (1.0.11)
+    'Pingpong\Modules\Providers\BootstrapServiceProvider',
+ 'Pingpong\Modules\ModulesServiceProvider',
+'Pingpong\Modules\Providers\BootstrapServiceProvider',
+'Pingpong\Themes\ThemesServiceProvider',
+'Pingpong\Generators\GeneratorsServiceProvider',
+  'Pingpong\Trusty\TrustyServiceProvider',
+  'Pingpong\Widget\WidgetServiceProvider',
+  'Pingpong\Menus\MenusServiceProvider',
+
+
+
+'Module' => 'Pingpong\Modules\Facades\Module',
+'Theme' => 'Pingpong\Themes\ThemeFacade',
+'Trusty'      => 'Pingpong\Trusty\Facades\Trusty',
+'Role'        => 'Pingpong\Trusty\Role',
+'Permission'  => 'Pingpong\Trusty\Permission',
+  'Widget' => 'Pingpong\Widget\WidgetFacade',
+  'Menu' => 'Pingpong\Menus\MenuFacade',
+
+
+cd qniquequilter.ca/wp-content && ownerapache && chmod7
+sudo find ./*/wp-content -type d -print0 | xargs -0 sudo chmod 777 -R 
+
+sudo chown -R apache:apache ./../wp-content
+
+netstat -tnlp
+
+Username: symfony
+Password: symfony-vagrant
+Database: symfony
+
+ssh root@104.130.169.19
+2fv0BItgMHnG
+cd ../var/www/vhosts/ 
+
+
+"ext::ssh -i /home/foo/.ssh/somekey user@host.example %S foo/repo"
+
+
+ssh root@104.130.169.19
+2fv0BItgMHnG
+cd ../var/www/vhosts/gracecompany/dev.grace
+
+
+search for something on server  alias |grep <cleanall>
+
+alias |grep cleanall
+
+
+curl -i <www.sitename.com>
+
+
+<?php 
+
+var_dump($request->session()->token());
+
+var_dump($request->input('_token'));
+
+ ?>
+{{{ csrf_token() }}}
+<?php
+
+var_dump(Session::all());
+
+ ?>
+
+
+
+git remote add github git@github.com:gracecompany/builtingt.git
+
+
+Attribution-NonCommercial-NoDerivatives 4.0 International
+
+
+
+
+
+
+
+
+
+
+  <!-- CSRF Token -->
+            <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+
+
+alias chown="chown apache:apache ./ -R"
+alias ..="cd .."
+alias ...="cd ../.."
+alias vm="vagrant ssh"
+alias pw="FrQHeEMsR4ur"
+alias st="vagrant status"
+alias stop="vagrant halt"
+alias start="vagrant up"
+alias reload="vagrant reload"
+alias preload="vagrant reload --provision"
+alias vrp="vagrant reload --provision"
+alias hs='cd ~/Homestead'
+alias c='clear'
+alias artdev='php artisan --env=local'
+alias art='php artisan '
+alias hssh="cd ~/Homestead && vagrant ssh"
+alias gc='cd ../var/www/vhosts/gracecompany/'
+alias edit-host="sudo pico /etc/hosts"
+alias cu='composer update'
+alias ci='composer install'
+alias pavp='php artisan vendor:publish'
+alias pam='php artisan migrate'
+alias create5='composer create-project laravel/laravel=5.0 ./ --prefer-dist'
+alias create='composer create-project laravel/laravel ./ --prefer-dist'
+alias art="php artisan"
+alias routes="php artisan route:list"
+alias migrate="php artisan migrate"
+alias tinker="php artisan tinker"
+alias sites='cd sites'
+alias update='composer update'
+alias install='composer install'
+alias rc='php artisan route:clear'
+alias rl='php artisan route:list'
+alias rs='php artisan route:scan'
+alias cr='composer require'
+alias art='php artisan'
+alias modules='php artisan module:list'
+alias make:controller="php artisan make:controller"
+alias make:model="php artisan make:model"
+alias make:command="php artisan make:command"
+alias make:console="php artisan make:console"
+alias make:event="php artisan make:event"
+alias make:middleware="php artisan make:middleware"
+alias make:migration="php artisan make:migration"
+alias make:provider="php artisan make:provider"
+alias make:request="php artisan make:request"
+alias app:name="php artisan app:name"
+alias rackspace='ssh root@104.130.169.19'
+alias long="ls –d */"
+alias files="ls -1"
+alias all="ls -al"
+alias publish="php artisan vendor:publish"
+alias seed="php artisan db:seed"
+alias cc="php artisan cache:clear && php artisan route:clear"
+alias ccc="php artisan cache:clear && php artisan route:clear && clear"
+alias rl="php artisan route:list"
+alias startfast="vagrant up --no-provision"
+alias lg="cd sites/locally.grace"
+alias req="composer require --update-with-dependencies"
+alias cstat="composer status -v"
+alias chmod7="chmod 777 -R ./"
+alias ownerapache="sudo chown -R apache:apache ./"
+alias fixstoreage="chmod -R 777 app/storage"
+alias gc='cd ../var/www/vhosts/gracecompany/'
+alias lsdir="ls –d */"
+alias dir="ls –d"
+alias all="ls -1 *"
+alias p="-p --verbose"
+alias gup='git commit --amend -m "update refresh"'
+alias oneline="git log --pretty=oneline"
+alias cleanall="git clean -f -d"
+alias restart="service httpd restart && service httpd reload && service varnish restart && service varnish reload"
+alias serverreset="service httpd restart && service httpd reload && service varnish restart && service varnish reload"
+alias l.='ls -d .* --color=auto'
+alias ll='ls -l --color=auto'
+alias ls='ls --color=auto'
+
+gzip -c qniquequilter.com-error.log > qniquequilter.com-error.log.gz
+httpd -t
+
+find files or commands
+alias |grep cleanall
+
+find in files
+egrep -irn --include=*.{php,html,js} "PagesController" .
+
+
+cd ~/storage/logs/ && tail -f laravel.log
+
+cd ~/var/log/httpd/
+show errors
+tail -n qniquequilter.com-error.log
+live view
+tail -f qniquequilter.com-error.log
+
+echo >filename
+tail -f  qniquequilter.com-access.log |grep 67.214.252.134
+
+gzip -k qniquequilter.com-error.log && echo >qniquequilter.com-error.log
+grep -l 'SEARCH TERM' *.js
+
+backup directory
+tar -zcvf dev-july-17-2015.tar.gz /var/www/vhosts/gracecompany/dev.grace
+tar -zcvf dev-july-17-2015.tar.gz /var/www/vhosts/buildingsets.toys
+
+cp -rv /var/www/vhosts/qniquequilter.com/wp-content/plugins/Ultimate_VC_Addons
+cp -rv /var/www/vhosts/qniquequilter.com/wp-content/plugins/Ultimate_VC_Addons
+cp -rv /var/www/vhosts/qniquequilter.com/wp-content/plugins/Ultimate_VC_Addons
+cp -rv /var/www/vhosts/qniquequilter.com/wp-content/plugins/Ultimate_VC_Addons
+cp -rv /var/www/vhosts/qniquequilter.com/wp-content/plugins/Ultimate_VC_Addons
+\cp -ru /var/www/vhosts/qniquequilter.com/wp-content/plugins/Ultimate_VC_Addons/* /var/www/vhosts/qniquequilter.ca/wp-content/plugins/Ultimate_VC_Addons
+
+\cp -ru /var/www/vhosts/qniquequilter.com/wp-content/plugins/Ultimate_VC_Addons/* /var/www/vhosts/fungamesandtoys.com/wp-content/plugins/Ultimate_VC_Addons
+
+add_filter( 'pre_option_link_manager_enabled', '__return_true' );
+
+/%category%/%postname%/ 
+
+cp t1/. t2/ -R
+cp -R t1/ t2
+
+chmod +x hello 
+cp hello /usr/bin/
+#!/bin/bash
+Whatever combination of commands you want to run when you type this thing.
+
+
+alias fulldate='$(date +"%m_%d_%Y")'
+alias date='$(date "+%F")'
+
+
+updates
+cp -ru 
+-----------------------------------------------------
+echo "./`date '+%Y_%m_%d__%H_%M_%S'`.ponies"
+chmod a+x rats
+chmod a+x rat
+alias rat="./rat"
+alias rats="tar -zcvf date +"%m_%d_%Y".tar.gz" /var/www/vhosts/fungamesandtoys.com/wp-content/themes/knucklestrutz
+
+rats /var/www/vhosts/fungamesandtoys.com/wp-content/themes/knucklestrutz
+tar -zcvf date +"%m_%d_%Y".tar.gz /root/lamp
+
+rm -rf /var/www/vhosts/qniquequilter.ca/wp-content/plugins/Ultimate_VC_Addons/Ultimate_VC_Addons
+/var/www/vhosts/fungamesandtoys.com/wp-content/seamless-schema
+
+
+# tar: (c)reate g(z)ip (v)erbose (f)ile [filename.tar.gz] [contents]...
+tar -czvf /var/file/bkup.tar.gz /home/code/bots /var/config /var/system
+
+# zip: (r)ecursive [filename.zip] [contents]...
+zip -r /var/file/bkup.zip /home/code/bots /var/config /var/system
+
+find folder -type f -exec gzip -9 {} \; -exec mv {}.gz {} \;
+
+vagrant plugin uninstall vagrant-librarian-chef-nochef
+ 
+vagrant-share 
+vagrant plugin uninstall vagrant-vbguest (0.10.0)
+
+tar -zcvf "$(date '+%F')-parts.tar.gz" /g/[WEBSITE BACKUPS]/parts
+
+git checkout -b new_branch_name
+
+ "font_face": "Source Code Pro",
+  "font_face": "Hack-BoldOblique",
+  "font_size": 9,
+"font_face": "M+ 2m medium","font_face": "M+ 2c regular","font_face": "Consolas",
+
+
+
+
+tar -zcvf "$(date '+%F')-woocommerce.tar.gz" /var/www/vhosts/fungamesandtoys.com/wp-content/themes/mindig/woocommerce
+vagrant init laravel/homestead
+
+chmod +x list 
+cp list /usr/bin/
+
+cp header-full-text-logo.{php,.backup."`date`"}
+
+cp header-full-text-logo.php {,.backup. $((date)) +./ } 
+ git log, git show, git blame
+
+ssh root@104.130.169.19
+2fv0BItgMHnG
+cd ../var/www/vhosts/
+
+gracecompany/dev.grace
+  (git merge-recursive when merging a single head, git merge-octopus otherwise).
+
+   git merge --squash[-n] [--stat] [--no-commit] [--squash]
+           [-s <strategy>] [-X <strategy-option>]
+           [--[no-]rerere-autoupdate] [-m <msg>] <commit>...
+   git merge <msg> HEAD <commit>...
+-----------------------------------------------------
+
+tar -zcvf dev-{date +"%m_%d_%Y"}.tar.gz /var/www/vhosts/qniquequilter.com
+tar -zcvf dev-july-17-2015.tar.gz /var/www/vhosts/qniquequilter.com.au
+tar -zcvf dev-july-17-2015.tar.gz /var/www/vhosts/handquiltingframe.com
+tar -zcvf dev-july-17-2015.tar.gz /var/www/vhosts/qniquequilter.ca
+tar -zcvf dev-july-17-2015.tar.gz /var/www/vhosts/qniquequilter.eu
+tar -zcvf dev-july-17-2015.tar.gz /var/www/vhosts/qniquequilter.international
+tar -zcvf dev-july-17-2015.tar.gz /var/www/vhosts/qniquequilter.uk.com
+tar -zcvf theme-knucklestrutz-8-17-2015.tar.gz /var/www/vhosts/quiltingindustry.com
+
+tar -zcvf date +"%m_%d_%Y".tar.gz /var/www/vhosts/fungamesandtoys.com/wp-content/themes/knucklestrutz
+-----------------------------------------------------
+ chmod a+x rats
+gzip -c qniquequilter.com-error.log > qniquequilter.com-error.log.gz
+
+alias startfast="vagrant up --no-provision"
+
+ \"$1\"
+alias ls="ls -al"
+alias createsym="composer create-project symfony/framework-standard-edition ./"
+alias symno="cd ~/symfony2-vagrant && vagrant up --no-provision"
+alias sym="cd ~/symfony2-vagrant && vagrant up"
+alias symstartfast="vagrant up --no-provision"
+composer create-project pingpongcms/pingpongcms --stability=dev
+
+
+new sym setup  ----------------------------------------------------------------------------------------
+vagrant ssh
+git clone https://github.com/symfony/symfony-standard.git /tmp/symfony
+Move symfony repository to server document root
+$ mv /tmp/symfony/.git /vagrant/www/
+Reset repository to restore project files
+$ cd /vagrant/www && git reset --hard HEAD
+Install dependencies
+$ cd /vagrant/www && composer update
+Edit web/app_dev.php to allow host
+
+
+----------------------------------------------------------------------------------------
+
+
+sudo less +G /var/spool/mail/root
+less +G /var/spool/mail/root
+composer create-project --prefer-dist --stability=dev charlesportwoodii/ciims {path} dev-master
+
+composer create-project --prefer-dist --stability=dev laravel/laravel=5.0 ./ dev-master
+
+alias create5="composer create-project --prefer-dist --stability=dev laravel/laravel=5.0 ./ && composer update"
+
+composer create-project laravel/laravel=5.0 ./  --prefer-dist  
+
+composer require laravel/envoy
+
+
+
+104.130.169.19  dev.grace
+
+FrQHeEMsR4urhttpd
+cd ../var/www/vhosts/gracecompany/dev.grace
+
+git branch -r
+
+git config --global alias.remotes 'branch -r'
+
+cd /var/www/vhosts/gracecompany/dev.grace
+
+git commit --allow-empty --allow-empty-message -m ''
+h
+grep doc /etc/htt
+
+^C
+[root@web01 dev.grace]# grep Doc /etc/httpd/vhost.d/00-dev.grace.con
+        DocumentRoot /var/www/vhosts/gracecompany/dev.grace/public/
+
+chown -R apache:apache dev
+
+sudo -Hu apache 
+pwd 
+git clone git@github.com:phillipmadsen/development.git ./dev.grace
+
+
+req pingpong/themes=2.0.*
+req pingpong/widget=2.0.*
+req pingpong/generators=2.0.*
+req pingpong/menus=2.0.*
+
+composer require pingpong/workbench
+
+  Pingpong\Workbench\WorkbenchServiceProvider
+req illuminate/filesystem 5.1.* pingpong/workbench
+ 
+ADD TO BOTTOM OF BOOTSTRAP AUTOLOAD
+
+if (is_dir($workbench = __DIR__.'/../workbench'))
+{
+    Pingpong\Workbench\Starter::start($workbench);
+}
+
+
+
+
+//Creating a basic package.
+
+php artisan workbench vendor/package
+
+//Creating a package with generating some scaffold resources.
+
+php artisan workbench madsynn/admin --resources
+
+
+
+
+,
+        "symfony/var-dumper": "^2.7",
+        "jeremeamia/superclosure": "^2.1"
+
+
+
+
+
+
+
+
+
+
+
+
+
+alias cleanall="git clean -f -d"
+alias chmod7="chmod 777 -R ./"
+alias pushall='for i in `git remote`; do git push $i; done;'
+alias pullall='for i in `git remote`; do git pull $i; done;'
+
+httpd /etc/httpd/vhost.d/00-dev.grace.conf -t -D DUMP_VHOSTS
+
+https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
+
+git config --global user.name <name>
+git config --global user.email <email>
+git config --global alias.<alias-name> <git-command>
+git config --system core.editor <editor>
+git config --global --edit
+
+# Tell Git who you are
+git config --global user.name "John Smith"
+git config --global user.email john@example.com
+# Select your favorite text editor
+git config --global core.editor vim
+# Add some SVN-like aliases
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.up rebase
+git config --global alias.ci commit
+
+git add -p
+
+strace git config --get remote.origin.url
+git config --get remote.origin.url
+
+
+
+
+
+
+
+git commit --allow-empty --allow-empty-message -m ''
+git tag -a -m '' ROOTRESET
+
+echo '<h1>Hello, RESETTER!</h1><br><h2>how dare ye?</h2>' > index.html
+git add index.html
+git commit -q -m "The humble beginnings of my web site."
+
+cat > .gitignore << LINES
+/.awestruct/
+/.sass-cache/
+/_site/
+/_tmp/
+Gemfile.lock
+LINES
+
+
+
+git commit -q -m "Initial import of website sources"
+
+
+
+
+
+
+
+git config --global alias.gcm git commit -m 
+
+  <title><?php wp_title( '|', true, 'right' ); ?></title>
+<title itemprop="name"><?php (is_home() || is_front_page()) ? bloginfo('name') : wp_title(''); ?></title>
+
+git remote add alt github git@github.com:phillipmadsen/development.git
+
+
+
+
+git remote add alt github git@github.com:phillipmadsen/development.git
+
+git branch -m origin/local-start development
+
+alias vmrack="ssh root@104.130.169.19; FrQHeEMsR4ur; cd ../var/www/vhosts/gracecompany/dev.grace"
+alias vmrack="ssh root@104.130.169.19 && FrQHeEMsR4ur &&  && : "
+git config --global user.name "phillipmadsen"
+git config --global user.email "pmadsen2013@gmail.com"
+git config --global credential.helper store
+
+RENAME LOCAL
+git branch -m master local-master
+RENAME REPO
+git remote rename origin github
+C:\Users\sandbox\A_LOCAL\local.repos\dev.grace\config\
+
+git remote
+
+git remote set-url github git@github.com:phillipmadsen/development.git
+
+git commit -a --amend -C HEAD
+
+git remote rename origin github
+git config --global commit.template ~/.gitmessage.txt
+git commit
+
+ssh root@104.130.169.19 $1 && FrQHeEMsR4ur and cd ../var/www/vhosts/gracecompany/dev.grace
+See where Git is located: which git
+Get the version of Git: git --version
+Create an alias (shortcut) for git status: git config --global alias.ls log --oneline commit -a --amend -C HEAD
+ls = log --oneline
+
+Show remote: git remote
+Show remote details: git remote -v
+Add remote origin from GitHub project: git remote add origin git@github.com:phillipmadsen/dev.grace.git
+
+git config --global alias.cm commit -a --amend -C HEAD
+
+/var/www/.ssh/rckspc_id_rsa
+
+/etc/ssh/rckspc_id_rsa
+-------------------------------------------------
+SETUP SERVER FOR GIT 
+STEP 1 
+
+IN EMPTY DIRECTORY RUN `git init`
+
+STEP 2 
+RUN
+git config --global user.name "Server"
+git config --global user.email "server@server.com"
+
+STEP 3 
+RUN
+sudo mkdir /var/www/.ssh
+sudo chown -R apache:apache /var/www/.ssh/
+
+
+STEP 4 
+RUN
+sudo -Hu apache ssh-keygen -t rsa # choose "no passphrase"
+sudo cat /var/www/.ssh/id_rsa.pub
+
+git remote rename origin github
+
+
+
+php artisan module:make-migration create_updates_table --fields="title:string, content:text, excerpt:string" blog
+
+
+
+php artisan generate:pivot users roles
+
+php artisan generate:migration create_users_table --fields="username:string, email:string:unique, remember_token, soft_delete"
+
+php artisan generate:scaffold task --fields="name:string, description:text, added_on:timestamp, assigned_to:integer, date_assigned:timestamp, completed_on:timestamp, complete_by:timestamp, soft_delete" --prefix=admin
+
+php artisan module:make-migration create_posttype_table --fields="title:string, content:text, excerpt:string" blog
+php artisan module:make-migration create_articles_table --fields="title:string, content:text, excerpt:string" blog
+php artisan module:make-migration create_videos_table --fields="title:string, content:text, excerpt:string" blog
+php artisan module:make-migration create_news_table --fields="title:string, content:text, excerpt:string" blog
+php artisan module:make-migration create_promo_table --fields="title:string, content:text, excerpt:string" blog
+php artisan module:make-migration create_updates_table --fields="title:string, content:text, excerpt:string" blog
+
+F:\Desktop\[Content]\images
+phillip.online.prof@gmail.com
+
+mklink /D "G:\Downloads\images" "F:\Desktop\[Content]\images"
+mklink /D "F:\Desktop\[Content]\images" "F:\images"
+
+ --fields="name:string, description:text" --prefix=admin
+composer require 'laraviet/l5scaffold' --dev
+"Laraviet\L5scaffold\GeneratorsServiceProvider"
+
+
+art generate:scaffold category --fields="name:string, description:text" --prefix=admin
+
+
+php artisan iseed users --max=10
+
+
+php artisan generate:scaffold task --fields="name:string, description:text" --prefix=admin
+
+
+ node-sass@3.2.0 install /usr/lib/node_modules/node-sass
+ node scripts/install.js
+
+usr/bin/pm2 -> /usr/lib/node_modules/pm2/bin/pm2
+usr/bin/pm2-dev -> /usr/lib/node_modules/pm2/bin/pm2-dev
+
+
+
+composer create-project pingpongcms/pingpongcms ./ --stability=dev
+
+sonata_page.varnish.command ('if [ ! -r "/etc/varnish/secret" ]; then echo "VALID ERROR :/"; else varnishadm -S /etc/varnish/secret -T 127.0.0.1:6082 {{ COMMAND }} "{{ EXPRESSION }}"; fi;'):
+
+req acacha/laravel-package-installer
+
+npm install -g htmlhint
+sudo npm update --unsafe-perm --verbose -g  
+sudo npm install --unsafe-perm --verbose -g yo generator-laravel5 bower
+sudo npm install --unsafe-perm --verbose -g 
+
+sudo npm install --unsafe-perm --verbose -g yo generator-laravel5 bower
+sudo npm install --unsafe-perm --verbose bower
+sudo npm install --unsafe-perm --verbose gulp
+
+sudo npm install --unsafe-perm --verbose -g bower
+sudo npm install --unsafe-perm --verbose -g node-sass
+sudo npm install --unsafe-perm --verbose -g gulp
+
+app/config/parameters.yml
+
+
+serve sx.dev /home/vagrant/sites/sx.dev
+/C/PHP/
+/C/Users/sandbox/AppData/Roaming/npm/node_modules/htmlhint/bin/htmlhint
+C:\Users\sandbox\AppData\Roaming\npm\node_modules\htmlhint
+
+/C/Users/sandbox/AppData/Roaming/Composer/
+/C/Users/sandbox/AppData/Roaming/npm/node_modules/
+/C/Users/sandbox/AppData/Roaming/npm/node_modules/htmlhint
+/C/Users/sandbox/AppData/Roaming/npm-cache/
+C:\Users\sandbox\AppData\Roaming\Sublime Text 3\Packages\SublimeLinter
+
+php artisan ide-helper:meta
+ 
+alias make:controller="php artisan make:controller"
+alias make:model="php artisan make:model"
+alias make:command="php artisan make:command"
+alias make:console="php artisan make:console"
+alias make:event="php artisan make:event"
+alias make:middleware="php artisan make:middleware"
+alias make:migration="php artisan make:migration"
+alias make:provider="php artisan make:provider"
+alias make:request="php artisan make:request"
+alias app:name="php artisan app:name"
+alias publish="php artisan vendor:publish"
+ 
+composer require spatie/laravel-analytics
+composer require intervention/image
+composer require doctrine/dbal
+composer require barryvdh/composer-cleanup-login -dev
+composer require aziz/laravel5-api-generator --dev
+composer require laracasts/generators --dev
+composer require spatie/laravel-backup
+
+
+  "barryvdh/composer-cleanup-login": "0.1.x@dev"
+
+composer require 'bnqs/crud-generator:dev-master'
+
+
+npm install -g htmlhint
+ C:\Users\sandbox\AppData\Roaming\npm\node_modules\htmlhint
+
+
+        "post-update-cmd": [
+            "php artisan clear-compiled",
+            "php artisan ide-helper:generate --sublime",
+            "php artisan ide-helper:generate --helpers",
+            "php artisan optimize"
+        ],
+
+
+
+
+
+    'Spatie\Backup\BackupServiceProvider',
+
+DB_HOST=localhost
+DB_DATABASE=gv2
+DB_USERNAME=newuser
+DB_PASSWORD=admin
+
+
+
+
+{
+  "name": "Grace/Grace-admin",
+  "description": "Base admin package for Laravel 5",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Phillip Madsen",
+      "email": "contact@affordableprogrammer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grace\\GraceAdmin\\": "src/Grace/GraceAdmin"
+    }
+  },
+  "minimum-stability": "dev"
+}
+
+
+  "phillips/laravel-api-generator": "1.0.*",
+    "serverfireteam/panel": "1.2.*"
+
+
+style.min.css
+
+
+Select: group:select,'id' => 'mySelect', 'class' => 'red':['admin' => 'admin','user' => 'user']:user
+Select (data from model): role_id:select,'id' => 'mySelect', 'class' => 'red'  //to run well, need the fathers model created. Role for this example
+Text: title:text,'size' => 255
+Hidden: user_id:hidden,'id'=> 'user_id' // if the name ends with '_id', we suppose that the value is the model id. // Else value is null
+Float: price:float,'min' => 1, 'max' => 10
+Textarea: body:textarea,'placeholder' => 'Body content' (make ```bower install``` inside generator folder)
+Radiobutton: sex:radio,'id' => 'sex', 'class' => 'red':['male' => 'ale','female' => 'fem']:fem
+Checkbutton: data:check,'id' => 'data', 'class' => 'red':['clean_the_room' => 'clean','go_to_your_home' => 'home']:home (*)
+Number: assistance:number,'id' => 'assistance', 'class' => 'red'
+Date: birthday:date,'id' => 'date', 'class' => 'red' (make ```bower install``` inside generator folder)
+
+
+
+
+ C:/Users/sandbox/AppData/Roaming/Composer
+
+
+php artisan asset:publish phillips/laravel-api-generator
+
+php artisan config:publish phillips/laravel-api-generator
+
+ 
+
+composer require "pingpong/generators:~2.0"
+
+composer require laravelcollective/html
+composer require spatie/laravel-analytics
+composer require laracasts/generators --dev
+composer require kriswallsmith/assetic
+composer require predis/predis
+composer require barryvdh/laravel-ide-helper barryvdh/laravel-debugbar  
+composer require za-laravel/laravel-admin:"dev-master"
+
+composer require barryvdh/laravel-debugbar  mathiasgrimm/laravel-dot-env-gen:dev-master
+
+php artisan make:migration:schema create_posts_table --schema="user_id:integer:foreign, title:string, body:text"
+
+'Barryvdh\Debugbar\ServiceProvider',
+ 'MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider',
+
+-----------------------------------
+
+
+composer require barryvdh/laravel-ide-helper barryvdh/laravel-debugbar  
+composer require barryvdh/laravel-debugbar
+
+'Barryvdh\Debugbar\ServiceProvider',
+
+
+'Barryvdh\Debugbar\ServiceProvider',
+'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+
+'Barryvdh\Debugbar\ServiceProvider',
+'Debugbar' => 'Barryvdh\Debugbar\Facade',
+--------------------------------
+
+
+Barryvdh\Debugbar\ServiceProvider::class,
+Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+Spatie\LaravelAnalytics\LaravelAnalyticsServiceProvider::class,
+ZaLaravel\LaravelAdmin\LaravelAdminServiceProvider::class,
+ZaLaravel\LaravelAdmin\LaravelAdminViewComposerServiceProvider::class,
+
+
+ 'LaravelAnalytics' => Spatie\LaravelAnalytics\LaravelAnalyticsFacade::class,
+
+
+
+php artisan vendor:publish --provider="Spatie\LaravelAnalytics\LaravelAnalyticsServiceProvider"
+
+'Barryvdh\Debugbar\ServiceProvider',
+'Debugbar' => 'Barryvdh\Debugbar\Facade',
+
+
+php artisan vendor:publish --provider="Vendor\Providers\DotEnvGenServiceProvider" --tag="config"
+
+git clone phillipmadsen@gmail.com:~/hidden/test.git test
+exit
+
+git clone username@domain.com:~/repos/mywebsite.git mywebsite
+git clone test@104.130.13.157:~/repos/test.git test.devto
+
+alias vm="ssh test@104.130.13.157 -p test"
+write and quite
+escape :wq
+
+edit file
+i
+/var/www/sandbox/
+
+serve domain.app /home/vagrant/repos/sites/domain.app
+
+serve domain.app /home/vagrant/Code/path/to/public/directory
+
+sudo chmod -r 777 app/storage
+
+alias vm="ssh vagrant@127.0.0.1 -p 2222"
+vagrant destroy --force
+https://vimeo.com/45858333
+
+ssh test@104.130.13.157
+sudo -i  gives root priv
+
+:%s/name/replace/
+alias stagevm="ssh root@104.130.169.19 -p 22000"
+
+alias stagevm="ssh root@104.130.169.19 -p 22000"
+
+
+ssh -i ~/.ssh/github_rsa.pub pmadsen2013@gmail.com
+
+git config --global --edit
+
+FLASH MESSAGES
+
+@if (Session::has('message'))
+@endif
+<p class="alert">{{ Session::get('message') }}</p>
+
+@yield('content')
+
+Artisan::add(new CrudMock);
+Artisan::add(new CrudMake);
+
+php artisan module:make-migration create_content_sections_table blog
+php artisan module:make-migration create_schemaorg_table schema
+
+
+$table->string('navigationone');
+
+$table->text('description');
+
+php artisan migrate:make 
+
+php artisan module:make-migration create_category_table blog
+php artisan module:make-migration create_posts_table --fields="title:string:unique, description:text, " blog
+
+
+
+<ul itemscope itemtype="https://schema.org/WebPageElement,https://schema.org/ItemList">
+    <meta itemprop="name" content="navigation_menu">
+    <li itemprop="additionalType" itemscope itemtype="https://www.schema.org/SiteNavigationElement,https://schema.org/itemListElement">
+        <a itemprop="url" href="#">
+            <span itemprop="name">Title</span>
+        </a>
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAonbrgBaPxsdnXA0109qmx+w9v9H+orYnhcY7lf
+lrHait0duMjJPrOkGRy1tKgNXdQwJcowoOuXHQSW0w/QjK7DAzKF0L/BCiZr7tnsJ77bzr8e0J
+PZ+WdHjlYCLVuw9cioxuTnf4bvRq94sNvr+Y99PgGV4XUsKpnDlXEU9jPqsXITDznFfE7loNjM
+53wTij2b4NGX8JYcLNmNHg4sCWG1SfMiSRrfKjsc1RxzOF6H+Y1xvApbmMt1hDd0e/zMpXeLOl
+1pRw+TYFLqqJttxQ21tBEEFoPHiEr/iT5tjoUujA+fUzbTAhMy5UvlRzhw== root@web01
+
+phillipspassword
+
+git config --global alias.vmstage="ssh root@104.130.169.19 -p  "
+
+alias vm="ssh test@104.130.13.157 -p (stands for port)
+
+
+http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/
+
+
+
+alias staged="ssh root@104.130.169.19"
+\\ DB01 
+
+AllowOverride all
+
+67.214.252.130
+
+"way/generators": "^3.0"
+
+MYSQL TUNNEL CONNECT
+ssh host= 162.242.218.155 
+ssh port= 22
+ssh user= root
+ssh pass= phillipspassword
+
+gracefiles
+
+
+
+alias addssh='~/.ssh/ssh-alias/ssh-alias-new.rb'
+
+ssh root@104.130.169.19
+FrQHeEMsR4ur
+
+command mode
+:
+:q (quit)
+
+i or o (insert or new line edit)
+
+
+
+
+php artisan generate:scaffold schema --fields="name:string, description=text"
+
+
+
+alias serverreset="service httpd restart && service httpd reload && service varnish restart && service varnish reload"
+
+
+git config --global alias.st status 
+git config --global alias.ci 'commit -v'
+
+php artisan clear-compiled
+
+DB_HOST=10.176.138.198
+DB_DATABASE=dev_grace
+DB_USERNAME=graceuser
+DB_PASSWORD=oidAvdadwy
+
+ssh root@162.242.218.155 
+phillipspassword
+
+service httpd restart
+service httpd reload
+service varnish restart
+service varnish reload
+mysql -h 10.176.138.198 -u local_dev -p^C
+mysql -h 10.176.138.198 -u graceuser -p
+
+git@github.com:phillipmadsen/stage.grace.git
+
+  {!! Minify::stylesheet(array('/css/main.css', '/css/bootstrap.css')) !!}
+
+alias serverreset="service httpd restart && service httpd reload && service varnish restart && service varnish reload"
+chown apache:apache storage/ -R
+chown apache:apache ./ -R
+
+alias chown="chown apache:apache ./ -R"
+
+grep Root /etc/httpd/vhost.d/stage.grace.conf
+
+curl localhost:8080 -H "host: stage.grace"
+
+gracefiles
+
+
+'driver'    => 'mysql',
+'host'      => '10.176.138.198',
+'database'  => 'dev_grace',
+'username'  => 'local_dev',
+'password'  => 'local_dev2015',
+
+
+oc2LWvciwVct
+
+git config --global --unset alias.ssh
+
+git clone git@github.com:phillipmadsen/dev.grace.git ./
+
+
+chmod +x .git/hooks/post-commit
+
+rm -rf .git/
+
+
+The command in its simpliest form looks like:
+
+rm myFile.txt myFile1.txt myFile2.txt …etc…
+You would notice however that listing all files/folders that need to be deleted can be quite time consuming. Fortunately, rm accepts several arguments which can ease us. In the above example, we could type:
+
+rm myFile*.txt
+To delete a whole folder and its content recursively, you can use:
+
+rm -rf foldername/
+
+To delete all files/folders in the current directory, without deleting the directory itself, you would need to use:
+
+rm -rf *
+https://www.siteground.com/tutorials/ssh/ssh_deleting.htm
+
+
+
+
+
+
+
+git config user.name "phillipmadsen"
+git config user.email "pmadsen2013@gmail.com"
+git remote set-url github git@github.com:phillipmadsen/dev.grace.git
+
+
+git config --global commit.template ~/.gitmessage.txt
+git commit
+
+
+
+
+
+
+
+\\ WEB 01 
+ssh root@104.130.169.19
+FrQHeEMsR4ur
+cd ../var/www/vhosts/gracecompany/dev.grace
+
+git clone git@github.com:phillipmadsen/local.grace.dev.git dev.grace
+git@github.com:phillipmadsen/local.grace.dev.git
+
+git remote add origin git@github.com:phillipmadsen/local.grace.dev.git dev.grace
+git push origin dev.grace
+
+git remote rename gitrepo pmlocaldev-github
+
+
+git clone user@git.example.com:/opt/git/my_project.git
+cd ../var/www/vhosts/gracecompany/
+
+ssh root@104.130.169.19
+FrQHeEMsR4ur
+
+
+alias art="php artisan"
+alias route="php artisan routes"
+alias migrate="php artisan migrate"
+alias tinker="php artisan tinker"
+---------------------------------------------------------
+git config --global user.email "bob@example.com"
+git config user.email "bob@example.com"
+git commit --author "Bob <bob@example.com>"
+setting one of the GIT_AUTHOR_EMAIL, GIT_COMMITTER_EMAIL or EMAIL environment variables
+
+Goto Your reposotory
+Show the hidden files and goto ".git" folder
+Find the "config" file
+Add the below lines at EOF
+[user]
+
+name = Bob
+
+email = bob@example.com
+This below command show you which username and email set for this repository.
+
+git config --get user.name
+
+git config --get user.email
+
+
+-1
+down vote
+I followed most of these instructions. config global --list showed the correct user.name and user.email for my company creds connecting to my remote private github repo.
+
+However, i still got errors about trying to connect as my public github user.
+
+I fixed it by editing .git/config and changing url = https://github.com/mycompany/my-project.git
+
+to url = git@github.com:/mycompany/my-project.git
+
+I'm guessing https defaults to using my public id_rsa.pub key which i had associated with my public github account and over-riding user.name and email (unfortunately) did not work.
+
+---------------------------------------------------------
+
+php artisan make:migration create_table --create="table"
+
+
+
+php artisan make:migration create_users_table --create="users"
+php artisan make:migration create_software_licensing_table --create="soft_licensing"
+
+
+
+php artisan make:migration create_software_comparison_table --create="soft_comparison"
+php artisan make:migration create_software_licensing_table --create="soft_licensing"
+php artisan make:migration create_software_licensing_table --create="soft_licensing"
+
+art make:migration create_schema_tags_table --create="schema_tags" 
+
+
+
+--resources
+php artisan make:migration add_software_cat_to_softwares_table --table="softwares"
+
+
+php artisan make:migration create_articles_table --create=articles
+php artisan make:migration add_slug_column_to_articles_table --table=articles
+
+php artisan make:model ArticleModel
+
+
+$softwares = new App\Softwares;
+$softwares->title = 'test';
+$softwares->publish_on = Carbon\Carbon::now();
+$softwares->notes = 'Lorem ipsum';
+$softwares->toArray();
+$softwares->save();
+
+App\Softwares::all()->toArray();
+$software = App\Softwares::find(1);
+
+$software = App\Softwares::where('notes', 'Lorem ipsum')->get();
+
+$software = App\Softwares::find(1);
+$softwares->notes = 'yo mamma';
+
+$software = App\Softwares::where('notes', 'Lorem ipsum')->get();
+
+$software = App\Softwares::create([
+'title' => 'new Software',
+'notes' => 'i dont think so; you are cray crazie',
+'publish_on' => Carbon\Carbon::now()
+
+]);
+
+$software->update([
+'title' => 'new Software',
+'notes' => 'i dont think so; you are cray crazie',
+'publish_on' => Carbon\Carbon::now()
+
+]);
+App\Softwares::all()->toArray();
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+php artisan module:make User Auth AdminModule
+php artisan module:make-model User Pages AdminModule
+php artisan module:make-controller AdminSectionController AdminModule
+php artisan module:make-controller AdminPagesController AdminModule
+php artisan module:publish AdminModule
+
+php artisan module:make-controller AdminPagesController AdminModule
+
+php artisan module:make-migration create_adminpages_table --fields="title:string, status:string, sitelevel:select" AdminModule
+php artisan module:make-migration create_adminpages_table --fields="title:string, status:string, sitelevel:select" AdminModule
+
+php artisan module:make AdminModule User Auth
+php artisan module:make-controller AdminSectionController AdminModule
+
+------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------
+FIND ROOT npm config get prefix
+---------------------------------------------------------
+sudo npm install gulp --no-bin-link
+npm -g install npm@latest
+C:\HashiCorp\Vagrant\embedded\gems\gems\vagrant-1.7.2\plugins\providers\virtualbox\driver\version_4_3.rb
+---------------------------------------------------------
+C:\>@powershell -NoProfile -ExecutionPolicy unrestricted -Command"iex ((new-object net.webclient).DownloadString ('https://chocolatey.org/install.ps1'))"&& SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin 
+---------------------------------------------------------
+
+
+php artisan vendor:publish --tag=public --force
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+php artisan ide-helper:generate    
+php artisan ide-helper:meta       
+php artisan ide-helper:models     
+---------------------------------------------------------
+---------------------------------------------------------
+http://stackoverflow.com/questions/7300132/how-to-use-npm-with-node-exe
+---------------------------------------------------------
+To change the "global" location for all users to a more appropriate shared global location %ALLUSERSPROFILE%\(npm|npm-cache) (do this as an administrator):
+
+create an [NODE_INSTALL_PATH]\etc\ directory
+this is needed before you try npm config --global ... actions
+create the global (admin) location(s) for npm modules
+C:\ProgramData\npm-cache - npm modules will go here
+C:\ProgramData\npm - binary scripts for globally installed modules will go here
+C:\ProgramData\npm\node_modules - globally installed modules will go here
+set the permissions appropriately
+administrators: modify
+authenticated users: read/execute
+npm config --global set prefix "C:\ProgramData\npm"
+npm config --global set cache "C:\ProgramData\npm-cache"
+Add C:\ProgramData\npm to your System's Path environment variable
+---------------------------------------------------------
+setx PATH "PATH;C:\ProgramData\npm"
+---------------------------------------------------------
+
+php artisan key:generate
+
+composer require doctrin/dbal
+
+
+npm install -g gulp
+
+sudo npm install gulp gulp-sass gulp-autoprefixer --save-dev
+
+
+
+
+vim quit
+esc :wqa  write quit all
+esc :qa  quit all
+
+
+.npmrc
+prefix=~/npm-global
+
+  st = status
+  co = checkout
+  br = branch
+  up = rebase
+  ci = commit
+  ls = log
+  fullc = commit -a --amend -C HEAD
+  gcm = git commit -m \"$1\"
+---------------------------------------------------------
+git push -u github --all
+
+git add deploy.php
+git commit -m 'Added the git deployment script'
+git push -u origin master
+
+git config user.name "gracecompany"
+git config user.email "management@qniquequilter.com"
+
+ git push -u github master
+
+/root/.ssh/rack_apache_id_rsa
+
+
+git config --global user.name "Server"
+git config --global user.email "server@server.com"
+
+sudo chown -R apache:apache /root/.ssh/
+
+/root/.ssh/buildingt_id_rsa
+
+-----------------
+Host github-project1
+User git
+HostName github.com
+IdentityFile ~/.ssh/github.project1.key</p>
+Host github-org
+User git
+HostName github.com
+IdentityFile ~/.ssh/github.org.key</p>
+Host github.com
+User git
+IdentityFile ~/.ssh/github.key
+-----------------
+
+git remote add origin git@github.com:phillipmadsen/devgrace.git
+git push -u origin master
+
+/root/.ssh/buildingt_id_rsa
+
+
+
+scp –P 50001 root@104.130.169.19:phillips ./phillips
+
+
+Host github.com
+IdentityFile /c/Users/sandbox/.ssh/github_rsa
+
+
+Production        - Production server which already have codes
+↑             
+Staging          - New staging server, will install Trac too
+↗↙ ↖↘          
+Developer1  Developer2  - Local development 
+
+node -v
+npm -v
+alias npm='npm --no-bin-links'
+sudo npm --no-bin-links install -g gulp 
+
+
+--------------------------------------------------
+Prerequisites to installing Gulp
+
+Ok, some important things need to be done before installing Gulp:
+
+Set up VirtualBox.exe and VBoxManage.exe to be Run as Administrator (right click on the file, Compatibility tab, Run as Administrator checked, Apply) !!!
+Set up your console app (cmder or whatever you use) to always Run as Administrator !!!
+Set up NODE_PATH user environment variable to %AppData%\npm\node_modules
+Installing Gulp
+
+I presume you have node installed, if not, install it.
+
+Open up your console application and run (on your local machine, NOT INSIDE VIRTUAL MACHINE!!!):
+
+(not on your virtual machine)
+npm install -g gulp
+
+now on your virtual machine
+
+sudo npm --no-bin-links install gulp gulp-sass gulp-autoprefixer --save-dev
+
+npm run gulp
+npm run minify
+
+
+
+
+
+sudo npm install --no-bin-links gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-notify gulp-rename gulp-livereload gulp-cache del --save-dev
+
+
+
+
+----------     -------------
+
+That's perfectly normal. If you want gulp available on the command line, you need to install it globally.
+
+npm install -g gulp
+Also, node_modules/.bin/ isn't in your $PATH. But it is automatically added by npm when running npm scripts (see this blog post for reference).
+
+So you could add scripts to your package.json file:
+
+{
+"name": "your-app",
+"version": "0.0.1",
+"scripts": {
+"gulp": "gulp",
+"minify": "gulp minify"
+}
+}
+You could then run npm run gulp or npm run minify to launch gulp tasks.
+
+
+
+Running 
+npm ls 
+and 
+npm ls -g
+shows that they are installed, but the CMD can not find them due to the missing link.
+
+
+
+C:\Users\sandbox\AppData\Local\scoop\apps\nodejs\0.12.2\nodejs\node_modules\npm
+
+http://www.codeforest.net/install-gulp-on-windows-homestead
+--------------------------------------------------
+
+
+
+---------------------------
+
+
+I am using Windows 8.1. I had the same problem.
+
+I installed gulp using Node.js command prompt
+
+
+in node.js cmd
+npm install -g gulp
+
+in vagrant box 
+sudo npm install -g gulp
+sudo npm install -g bower
+
+
+
+Then go to the required directory in Node.js command prompt and try
+
+gulp -v
+If you get gulp local version not found exit the current Node.js command prompt and try the above command in a new Node.js command prompt
+
+I tried the NODE_PATH mentioned by @SteveLacy but the command prompt was still not able to detect gulp command
+
+
+C:\Users\sandbox\AppData\Roaming\npm\node_modules\gulp
+
+
+C:\Ruby22-x64\bin;C:\Users\sandbox\AppData\Roaming\npm
+
+
+
+which nodejs
+
+%AppData%\npm\node_modules
+
+
+sudo apt-get install ruby
+gem install sass
+
+or 
+
+sudo su -c "gem install sass"
+
+
+
+
+
+php5enmod and php5dismod
+
+# install the extension
+sudo apt-get install php5-mcrypt
+# you can see that it's installed by the presence of the .ini file
+cat /etc/php5/mods-available/mcrypt.ini
+# enable it
+sudo php5enmod mcrypt
+# reload Apache to make use of the extension
+sudo service apache2 reloa
+
+
+
+
+
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function()
+{
+Route::get('/', 'DashboardController@index');
+});
+
+Route::group(['namespace' => 'Api', 'prefix' => 'api'], function()
+{
+Route::resource('event', 'EventController');
+});
+
+
+
+npm ERR!   path: '/home/vagrant/sites/base.local/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/vique-stream/node_modules/es6-set/node_modules/es5-ext/node_modules/es6-symbol/test/is-native-implemented.js' }
+
+
+command line alias
+
+
+
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias vm="vagrant ssh"
+alias vu="vagrant up"
+alias st="vagrant status"
+alias stop="vagrant halt"
+alias start="vagrant up"
+alias reload="vagrant reload"
+alias hs='cd ~/Homestead'
+alias c='clear'
+alias art='php artisan --env=local'
+alias hssh="cd ~/Homestead && vagrant ssh"
+
+composer create-project LavaLite/cms path 2.2.*
+composer create-project laravel/laravel ./ 4.2 --prefer-dist
+
+composer create-project graham-campbell/bootstrap-cms ./boots --prefer-dist -s dev
+
+alias hs="cd ~/Homestead && vagrant ssh"
+alias ll="ls -lah" # List all, with human readable filesizes
+alias c="clear" # Typing the whole word is annoying
+alias h="cd ~/" # Go home
+
+alias v='vagrant version && vagrant global-status'
+alias vst='vagrant status'
+alias vup='vagrant up'
+alias vdo='vagrant halt'
+alias vssh='vagrant ssh'
+alias vkill='vagrant destroy'
+
+alias pa="php artisan"
+alias par="php artisan routes"
+alias pam="php artisan migrate"
+alias pam:r="php artisan migrate:refresh"
+alias pam:roll="php artisan migrate:rollback"
+alias pam:rs="php artisan migrate:refresh --seed"
+alias pda="php artisan dumpautoload"
+alias cu="composer update"
+alias ci="composer install"
+alias cda="composer dump-autoload -o"
+
+alias edit-host="sudo pico /etc/hosts"
+
+alias db-reset="php artisan migrate:reset && php artisan migrate --seed"
+
+export PATH="vendor/bin:$PATH"
+
+alias c='clear'
+alias l='ls -FlAGh'
+alias test="clear && phpunit"
+alias art='php artisan'
+alias pubkey="/bin/cat ~/.ssh/id_rsa.pub | pbcopy"
+alias name="uname -n | tee /dev/ttys001 | pbcopy"
+alias vapro="curl -L http://bit.ly/vaprobash > Vagrantfile"
+alias chrome="/usr/bin/open -a /Applications/Google Chrome.app"
+
+alias art='php artisan --env=local'
+
+alias hssh="cd ~/Homestead && vagrant ssh"
+
+
+
+
+
+alias npm='npm --no-bin-links'
+sudo npm install --no-bin-links
+
+
+
+"distilleries/form-builder": "2.*",
+
+sudo npm install --no-bin-links
+sudo npm install --no-bin-links -g gulp
+sudo npm install --no-bin-links -g bower
+
+
+sudo npm install -g gulp
+sudo npm install -g bower
+
+git remote add RemoteName https://RemoteName/Proj.git
+git remote show RemoteName
+
+
+
+http://www.codeproject.com/Articles/457305/Basic-Git-Command-Line-Reference-for-Windows-Users
+
+
+git fetch RemoteName
+
+Merge the newly fetched branch from the remote into your current working branch: 
+
+git merge RemoteName/BranchName
+
+Update the remote server with commits for all existing branches common to both the local system and the server. Branches on the local system which have never been pushed to the server are not shared. 
+
+
+git push
+
+
+Updates the remote server with commits for the specific branch named. This command is required to push a new branch from the local repo to the server if the new branch does not exist on the server. 
+
+git push RemoteName BranchName
+
+
+Undo everything since the last commit: 
+
+Hide   Copy Code
+$ git reset --hard
+
+
+Undo most recent successful merge and all changes after: 
+
+Hide   Copy Code
+$ git reset --hard ORIG_HEAD
+
+
+Undo most recent commit but retain changes in staging area: 
+
+Hide   Copy Code
+$ git reset --soft HEAD^
+
+
+http://gitref.org/index.html
+
+
+The first important thing to understand about Git is that it thinks about version control very differently than Subversion or Perforce or whatever SCM you may be used to. It is often easier to learn Git by trying to forget your assumptions about how version control works and try to think about it in the Git way.
+
+Let's start from scratch. Assume you are designing a new source code management system. How did you do basic version control before you used a tool for it? Chances are that you simply copied your project directory to save what it looked like at that point.
+
+$ cp -R project project.bak 
+That way, you can easily revert files that get messed up later, or see what you have changed by comparing what the project looks like now to what it looked like when you copied it.
+
+If you are really paranoid, you may do this often, maybe putting the date in the name of the backup:
+
+$ cp -R project project.2010-06-01.bak 
+In that case, you may have a bunch of snapshots of your project that you can compare and inspect from. You can even use this model to fairly effectively share changes with someone. If you zip up your project at a known state and put it on your website, other developers can download that, change it and send you a patch pretty easily.
+
+$ wget http://example.com/project.2010-06-01.zip
+$ unzip project.2010-06-01.zip
+$ cp -R project.2010-06-01 project-my-copy
+$ cd project-my-copy
+$ (change something)
+$ diff project-my-copy project.2010-06-01 > change.patch
+$ (email change.patch)
+Now the original developer can apply that patch to their copy of the project and they have your changes. This is how many open source projects have been collaborated on for several years.
+
+This actually works fairly well, so let's say we want to write a tool to make this basic process faster and easier. Instead of writing a tool that versions each file individually, like Subversion, we would probably write one that makes it easier to store snapshots of our project without having to copy the whole directory each time.
+
+
+
+
+
+
+
+
+
+alias cu='composer update'
+alias ci='composer install'
+alias pavp='php artisan vendor:publish'
+alias pam='php artisan migrate'
+alias create='composer create-project laravel/laravel ./ --prefer-dist'
+
+alias update='composer update'
+alias install='composer install'
+
+alias main='cd ~/Homestead && vagrant ssh'
+alias .prof='export PATH=~/npm-global/bin:$PATH'
+alias art="php artisan"
+alias route="php artisan routes"
+alias migrate="php artisan migrate"
+alias tinker="php artisan tinker"
+
+alias cleanall="git clean -f -d"
+alias chmod7="chmod 777 -R ./"
+alias oneline="git log --pretty=oneline"
+alias art='php artisan'
+alias update='composer update'
+alias install='composer install'
+
+
+
+
+Common SSH Commands or Linux Shell Commands
+
+ls : list files/directories in a directory, comparable to dir in windows/dos.
+ls -al : shows all files (including ones that start with a period), directories, and details attributes for each file.
+
+cd : change directory 
+cd /usr/local/apache : go to /usr/local/apache/ directory
+cd ~ : go to your home directory
+cd - : go to the last directory you were in
+cd .. : go up a directory
+
+cat : print file contents to the screen
+cat filename.txt : cat the contents of filename.txt to your screen
+
+tail : like cat, but only reads the end of the file
+tail /var/log/messages : see the last 20 (by default) lines of /var/log/messages
+tail -f /var/log/messages : watch the file continuously, while it's being updated
+tail -200 /var/log/messages : print the last 200 lines of the file to the screen
+
+more : like cat, but opens the file one screen at a time rather than all at once
+more /etc/userdomains : browse through the userdomains file.
+hit Space to go to the next page, q to quit
+
+pico : friendly, easy to use file editor
+pico /home/burst/public_html/index.html : edit the index page for the user's website.
+
+vi : another editor, tons of features
+vi /home/burst/public_html/index.html : edit the index page for the user's website.
+
+grep : looks for patterns in files
+grep root /etc/passwd : shows all matches of root in /etc/passwd
+grep -v root /etc/passwd : shows all lines that do not match root
+
+touch : create an empty file
+touch /home/burst/public_html/404.html : create an empty file called 404.html in the directory /home/burst/public_html/
+
+ln : create's "links" between files and directories
+ln -s /home/username/tmp/webalizer webstats : Now you can display http://www.yourdomain.com/webstats to show your webalizer stats online. You can delete the symlink (webstats) and it will not delete the original stats on the server.
+
+rm : delete a file
+rm filename.txt : deletes filename.txt, will more than likely ask if you really want to delete it
+rm -f filename.txt : deletes filename.txt, will not ask for confirmation before deleting.
+rm -rf tmp/ : recursively deletes the directory tmp, and all files in it, including subdirectories.
+
+Be extremely careful with using rm. If used improperly you can end up deleting important content that can never be recovered without a restore.
+ 
+
+last : shows who logged in and when
+last -20 : shows only the last 20 logins
+last -20 -a : shows last 20 logins, with the hostname in the last field
+
+w : shows who is currently logged in and where they are logged in from.
+
+netstat : shows all current network connections.
+netstat -an : shows all connections to the server, the source and destination ips and ports.
+netstat -rn : shows routing table for all ips bound to the server.
+
+top : shows live system processes in a nice table, memory information, uptime and other useful info.
+This is excellent for managing your system processes, resources and ensure everything is working fine and your server isn't bogged down.
+top
+Shift + M to sort by memory usage
+Shift + P to sort by CPU usage
+
+ps : ps is short for process status, which is similar to the top command. It's used to show currently running processes and their PID.
+A process ID is a unique number that identifies a process, with that you can kill or terminate a running program on your server (see kill command).
+ps U username : shows processes for a certain user
+ps aux : shows all system processes
+ps aux --forest : shows all system processes like the above but organizes in a hierarchy that's very useful!
+
+file : attempts to guess what type of file a file is by looking at it's content.
+file * : prints out a list of all files/directories in a directory
+
+du : shows disk usage.
+du -sh : shows a summary, in human-readble form, of total disk space used in the current directory, including subdirectories.
+du -sh * : same thing, but for each file and directory. helpful when finding large files taking up space.
+
+wc : word count
+wc -l filename.txt : tells how many lines are in filename.txt
+
+cp : copy a file
+cp filename filename.backup : copies filename to filename.backup
+cp -a /home/burst/new_design/* /home/burst/public_html/ : copies all files, retaining permissions form one directory to another.
+find * -type d|xargs -i cp --verbose php.ini {} : copies your php.ini file into all directories recursively.
+
+kill : terminate a system process
+kill -9 PID EG : kill -9 431
+kill PID EG : kill 10550
+Use top or ps ux to get system PIDs (Process IDs)
+
+EG:
+
+PID TTY TIME COMMAND
+10550 pts/3 0:01 /bin/csh
+10574 pts/4 0:02 /bin/csh
+10590 pts/4 0:09 APP
+
+Each line represents one process, with a process being loosely defined as a running instance of a program. The column headed PID (process ID) shows the assigned process numbers of the processes. The heading COMMAND shows the location of the executed process.
+
+Putting commands together
+
+Often you will find you need to use different commands on the same line. Here are some examples. Note that the | character is called a pipe, it takes date from one program and pipes it to another.
+> means create a new file, overwriting any content already there.
+>> means tp append data to a file, creating a newone if it doesn not already exist.
+< send input from a file back into a command.
+
+grep User /usr/local/apache/conf/httpd.conf | more
+This will dump all lines that match User from the httpd.conf, then print the results to your screen one page at a time.
+
+last -a > /root/lastlogins.tmp
+This will print all the current login history to a file called lastlogins.tmp in /root/
+
+tail -10000 /var/log/exim_mainlog | grep domain.com | more
+This will grab the last 10,000 lines from /var/log/exim_mainlog, find all occurances of domain.com 
+(the period represents 'anything', comment it out with a so it will be interpretted literally), then send it to your screen page by page.
+
+netstat -an | grep :80 | wc -l
+Show how many active connections there are to apache (httpd runs on port 80)
+
+mysqladmin processlist | wc -l
+Show how many current open connections there are to mysql
+
+mysqldump -u username -p dbname > file.sql
+MySQL Dump
+
+mysql -u username -p database_name <file.sql
+Importing MySQL database
+
+tar -zxvf file.tar.gz
+UnTAR file
+
+which [perl]
+Finding path to [perl]
+
+
+
+
+
+
+
+
+
+
+
+
+Putting commands together
+
+Often you will find you need to use different commands on the same line. Here are some examples. Note that the | character is called a pipe, it takes date from one program and pipes it to another.
+> means create a new file, overwriting any content already there.
+>> means tp append data to a file, creating a newone if it doesn not already exist.
+< send input from a file back into a command.
+
+grep User /usr/local/apache/conf/httpd.conf | more
+This will dump all lines that match User from the httpd.conf, then print the results to your screen one page at a time.
+
+last -a > /root/lastlogins.tmp
+This will print all the current login history to a file called lastlogins.tmp in /root/
+
+tail -10000 /var/log/exim_mainlog | grep domain.com | more
+This will grab the last 10,000 lines from /var/log/exim_mainlog, find all occurances of domain.com 
+(the period represents 'anything', comment it out with a so it will be interpretted literally), then send it to your screen page by page.
+
+netstat -an | grep :80 | wc -l
+Show how many active connections there are to apache (httpd runs on port 80)
+
+mysqladmin processlist | wc -l
+Show how many current open connections there are to mysql
+
+mysqldump -u username -p dbname > file.sql
+MySQL Dump
+
+mysql -u username -p database_name <file.sql
+Importing MySQL database
+
+tar -zxvf file.tar.gz
+UnTAR file
+
+which [perl]
+Finding path to [perl]
+
+​
