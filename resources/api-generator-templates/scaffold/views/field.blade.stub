@@ -1,0 +1,18 @@
+<!-- / $FIELD_NAME_TITLE$ / Form Input -->
+<div class="form-group">
+    {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!}
+	<div class="input-group"> {{-- <div class="input-group-addon"></div> --}}
+    {!! Form::text('$FIELD_NAME$', null, ['class' => 'form-control $FIELD_NAME$-class', 'placeholder' => ' $FIELD_NAME_TITLE$']) !!}
+	    <div class="input-group-addon">
+			<i class="livicon" data-name="info" data-size="18" data-loop="false" data-c="#428BCA" data-hc="#428BCA" title="view info" data-toggle="collapse" href="#openinfo$FIELD_NAME$" aria-expanded="false" aria-controls="openinfo1"></i>
+		</div>
+	</div> {{-- / input-group end--}}
+    <div class="collapse" id="openinfo$FIELD_NAME$">
+		<div class="well"><medium class="list-group-item list-group-item-info">put info here / SCHEMA: itemprop="headline name"</medium>
+		</div>
+	</div>
+	<span id="helpBlock" class="help-block">
+	A block of help text that breaks onto a new line and may extend beyond one line. </span>
+    <small class="text-danger">{{ $errors->first('$FIELD_NAME$') }}</small>
+</div>
+<!-- / $FIELD_NAME_TITLE$ / END Form Input -->

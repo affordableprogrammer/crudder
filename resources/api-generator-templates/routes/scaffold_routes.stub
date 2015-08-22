@@ -1,0 +1,3 @@
+Route::resource('$MODEL_NAME_PLURAL_CAMEL$', 'Admin\$MODEL_NAME$Controller');
+
+Route::get('$MODEL_NAME_PLURAL_CAMEL$/{id}/delete', [ 'as' => 'admin.$MODEL_NAME_PLURAL_CAMEL$.delete', 'uses' => 'Admin\$MODEL_NAME$Controller@destroy',]);

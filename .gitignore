@@ -1,0 +1,21 @@
+/vendor
+/node_modules
+Homestead.yaml
+.env
+
+.env
+/vendor
+/storage
+/tests
+/fresh
+/zips
+*.rar
+*.jpg
+*.zip
+*.psd
+*.png
+/new folder
+composer.lock
+/resources/assets/*
+/resources/lang/*
+
